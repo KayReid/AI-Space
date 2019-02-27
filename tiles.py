@@ -34,7 +34,6 @@ class Tiles(Puzzle):
                     return False
         return True
 
-    # TODO fix this! WTF is hashing?
     def __hash__(self):
         return hash((self.grid[0][0], self.grid[0][1], self.grid[0][2],
                      self.grid[1][0], self.grid[1][1], self.grid[1][2],
